@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    /* position: fixed;
+    top:0; */
+    flex-direction:row;
+    justify-content: space-between;
+    padding-inline: 5vw;
+    width: 90%;
+    background-color: black;
+    background-color: transparent;
+    color: white;
+    align-items: center;
+    padding-block: 10px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.nav_black{
+    background-color: black;
+}
+
+.left-navigation{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-navigation>ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+.right-navigation{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+} 
